@@ -1,0 +1,95 @@
+/* ContactForm.css */
+
+.contact-form-container {
+    max-width: 400px; /* Reduced max-width for a smaller form */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 20px; /* Reduced the font size */
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Reduced gap between inputs */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px; /* Smaller font size */
+    margin-bottom: 6px; /* Smaller margin for labels */
+    color: #555;
+  }
+  
+  .input-field {
+    padding: 8px; /* Smaller padding */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px; /* Smaller font size */
+  }
+  
+  button {
+    padding: 10px 16px; /* Reduced padding */
+    font-size: 14px; /* Smaller font size */
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-section {
+    margin-bottom: 15px; /* Smaller margin at the top */
+  }
+  
+  .search-input {
+    display: flex;
+    gap: 8px; /* Reduced gap */
+  }
+  
+  .search-btn {
+    background-color: #4CAF50;
+    padding: 8px 16px; /* Smaller padding */
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .search-result {
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 12px; /* Reduced padding */
+    border-radius: 4px;
+  }
+  
+  .search-result p {
+    margin: 5px 0;
+  }
+  
